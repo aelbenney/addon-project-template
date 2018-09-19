@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
     Copyright (C) 2009 eXo Platform SAS.
-
     This is free software; you can redistribute it and/or modify it
     under the terms of the GNU Lesser General Public License as
     published by the Free Software Foundation; either version 2.1 of
     the License, or (at your option) any later version.
-
     This software is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
     Lesser General Public License for more details.
-
     You should have received a copy of the GNU Lesser General Public
     License along with this software; if not, write to the Free
     Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
     02110-1301 USA, or see the FSF site: http://www.fsf.org.
-
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -26,25 +21,24 @@
     <groupId>org.exoplatform.addons</groupId>
     <version>6</version>
   </parent>
-  <groupId>org.aelbenney.addon-project-template</groupId>
-  <artifactId>addon-project-template</artifactId>
+  <groupId>@@@groupId@@@</groupId>
+  <artifactId>@@@artifactId@@@</artifactId>
   <version>1.0.x-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Addon</name>
-  <description>desc</description>
+  <name>@@@name@@@</name>
+  <description>@@@description@@@</description>
   <modules>
-    <module>services</module>
     <module>war</module>
     <module>packaging</module>
   </modules>
   <scm>
-    <connection>scm:git:git://github.com/aelbenney/addon-project-template.git</connection>
-    <developerConnection>scm:git:git@github.com:addon-project-template.git</developerConnection>
+    <connection>scm:git:git://github.com/exo-addons/@@@git_project@@@.git</connection>
+    <developerConnection>scm:git:git@github.com:exo-addons/@@@git_project@@@.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/aelbenney/addon-project-template</url>
+    <url>https://github.com/exo-addons/@@@git_project@@@</url>
   </scm>
   <properties>
-   <platform.version>5.0.2</platform.version>
+    <platform.version>@@@platform_version@@@</platform.version>
   </properties>
   <dependencyManagement>
     <dependencies>
