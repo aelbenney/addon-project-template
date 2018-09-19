@@ -26,25 +26,37 @@
     <groupId>org.exoplatform.addons</groupId>
     <version>6</version>
   </parent>
-  <groupId>@@@groupId@@@</groupId>
-  <artifactId>@@@artifactId@@@</artifactId>
+  <groupId>org.aelbenney.addon-project-template</groupId>
+  <artifactId>addon-project-template</artifactId>
   <version>1.0.x-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>@@@name@@@</name>
-  <description>@@@description@@@</description>
+  <name>Addon</name>
+  <description>desc</description>
   <modules>
     <module>services</module>
     <module>war</module>
     <module>packaging</module>
   </modules>
   <scm>
-    <connection>scm:git:git://github.com/exo-addons/@@@git_project@@@.git</connection>
-    <developerConnection>scm:git:git@github.com:exo-addons/@@@git_project@@@.git</developerConnection>
+    <connection>scm:git:git://github.com/aelbenney/addon-project-template.git</connection>
+    <developerConnection>scm:git:git@github.com:addon-project-template.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/exo-addons/@@@git_project@@@</url>
+    <url>https://github.com/aelbenney/addon-project-template</url>
   </scm>
   <properties>
-    <platform.version>@@@platform_version@@@</platform.version>
+    <enterprise-ui-skin-final-name>EnterpriseSkin</enterprise-ui-skin-final-name>
+    <!-- **************************************** -->
+    <!-- Jira Settings                            -->
+    <!-- **************************************** -->
+    <jira.project.key>UI</jira.project.key>
+    <!-- **************************************** -->
+    <!-- Jenkins Settings                         -->
+    <!-- **************************************** -->
+    <jenkins.job.name>platform-ui-master-ci</jenkins.job.name>
+    <!-- **************************************** -->
+    <!-- Dependencies versions                    -->
+    <!-- **************************************** -->
+    <org.exoplatform.platform-ui.version>5.2.x-SNAPSHOT</org.exoplatform.platform-ui.version>
   </properties>
   <dependencyManagement>
     <dependencies>
