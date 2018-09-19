@@ -44,19 +44,7 @@
     <url>https://github.com/aelbenney/addon-project-template</url>
   </scm>
   <properties>
-    <enterprise-ui-skin-final-name>EnterpriseSkin</enterprise-ui-skin-final-name>
-    <!-- **************************************** -->
-    <!-- Jira Settings                            -->
-    <!-- **************************************** -->
-    <jira.project.key>UI</jira.project.key>
-    <!-- **************************************** -->
-    <!-- Jenkins Settings                         -->
-    <!-- **************************************** -->
-    <jenkins.job.name>platform-ui-master-ci</jenkins.job.name>
-    <!-- **************************************** -->
-    <!-- Dependencies versions                    -->
-    <!-- **************************************** -->
-    <org.exoplatform.platform-ui.version>5.2.x-SNAPSHOT</org.exoplatform.platform-ui.version>
+   <platform.version>5.0.2</platform.version>
   </properties>
   <dependencyManagement>
     <dependencies>
